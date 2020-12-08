@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(ros_processing)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  roslib
   std_msgs
 )
 find_package(JNI REQUIRED)
@@ -17,3 +18,5 @@ target_link_libraries(${PROJECT_NAME}_node
   ${catkin_LIBRARIES}
   ${JNI_LIBRARIES}
 )
+# TODO: build processing jar
+# TODO: install processing jar
