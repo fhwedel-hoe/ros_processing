@@ -1,7 +1,7 @@
 #include <vector>
 #include <iostream>
 
-#include "submodules/TypedJNI/typedjni.hpp"
+#include "typedjni.hpp"
 
 int main(int, char**) {
     JavaVMInitArgs vm_args;
