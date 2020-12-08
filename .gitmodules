@@ -1,0 +1,3 @@
+[submodule "submodules/TypedJNI"]
+	path = submodules/TypedJNI
+	url = https://github.com/hoehermann/TypedJNI.git
